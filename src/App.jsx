@@ -8,6 +8,9 @@ import Home from './components/Home/Home'
 import Login from './components/Login/Login'
 import Register from './components/Register/Register'
 import LiveExams from './components/Examination/LiveExams/LiveExams'
+import Exams from './components/Examination/LiveExams/Exams'
+import MockTest from './components/Examination/mock/MockTest'
+import Instructions from './components/Examination/LiveExams/instructions'
 
 function App() {
   const route = createBrowserRouter([
@@ -30,6 +33,18 @@ function App() {
           {
             path:"/liveexams",
             element:<LiveExams/>
+          },
+          {
+            path:"/exams",
+            element:<Exams/>
+          },
+          {
+            path:"/mocktest",
+            element:<MockTest/>
+          },
+          {
+            path:"/instructions",
+            element:<Instructions/>
           },
           {
             path:"/footer",

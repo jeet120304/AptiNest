@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
         <Landingpage/>
-        <LiveExams/>
+        {/* <LiveExams/> */}
         <Footer/>
     </div>
   )
